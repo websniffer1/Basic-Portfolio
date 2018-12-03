@@ -1,3 +1,40 @@
-body{
-    color: #dddddd
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li a {
+    display: block;
+    width: 60px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    border-bottom: none;
+    display: inline;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: block;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+#about{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: block;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
