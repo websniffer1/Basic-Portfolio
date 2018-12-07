@@ -1,4 +1,12 @@
 
+.site-header{
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    color: #fff;
+    background: #394549;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,7 +26,7 @@ li a {
     width: 60%;
     float: left;   
 }
-.topnav-right{
+#topnav-right{
     float: right;
     margin: 20px;
     padding: 0;
