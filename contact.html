@@ -2,37 +2,56 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <style> 
+        input[type=button], input[type=submit], input[type=reset] {
+          background-color: #4aaaa5;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+
   <title>About Me</title>
 </head>
 
-<div class="background">
-        <header>
-            <div class="main container">
-          <h1 id="Name">Emmanuel Bielonwu</h1>
-          
-              <h3 id="About">About</h3>
-              <h3 id="Portfolio">Portfolio</h3>
-              <h3 id="Contact">Contact</h3>
-            </div>
-        </header> 
-        <div>
+<body>
+  <div id="navbar">
+    <ul style="width: 960px">
+      <li id="name"><strong>Emmanuel Bielonwu</strong></li><!--About Tab-->
+
+      <li id="topnav-right"><a href="index.html">About</a></li><!--Portfolio Tab-->
+
+      <li id="topnav-right"><a href="portfolio.html">Portfolio</a></li><!--Contact Tab-->
+
+      <li id="topnav-right"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div><br />
+  <br />
+  <br />
+  <div style="width: 960px">
+    <h2>Contact</h2>
 
   <form>
         Name:<br>
-        <input type="text" name="name"><br><br>
+        <input required type="text" name="name"><br><br>
         E-mail:<br>
-        <input type="text" name="E-mail"><br><br>
+        <input required type="email" id="E-mail"><br><br>
         Message:<br>
         <textarea rows="4" cols="50">
         
                 </textarea> <br><br>
         <input type="submit" value="Submit">
         
-  </form>
-
+  </form><br/><br/>
+  <div class="footer">
+    <p>Copyright &#169;</p>
+  </div>
 
 
 </body>
